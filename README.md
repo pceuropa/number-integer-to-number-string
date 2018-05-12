@@ -9,6 +9,15 @@ Browser <- Js AJAX -> REST API (django) <->
    name of number in group (ex. sto dwadzieścia). At the end method toString() scale and return string (or False if
    exception)
 
+
+## Download and install packages
+```
+git clone https://github.com/pceuropa/number-integer-to-number-string.git
+cd number-integer-to-number-string
+pip3 install -r requrements.txt
+```
+
+
 ## Run app django
 ```
 ./manage.py runserver
