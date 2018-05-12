@@ -1,0 +1,80 @@
+/*!
+ * minimalism v1.0.0
+ * Homepage: https://pceuropa.net/css
+ * Copyright 2016-2017 Rafal Marguzewicz
+ * Licensed under MIT
+ * Based on Bootstrap
+*/
+
+body {
+	font: 400 14px/1.8 "Open Sans", sans-serif;
+	color: #666;
+	padding-top: 80px;
+}
+
+
+a{color: #1e8ce4;}
+a:hover, a:focus {text-decoration: underline;}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+
+.h1, h1 {
+	font-size: 30px;
+}
+.h2, h2 {
+	font-size: 20px;
+}
+
+.navbar-inverse {
+	background-color: #fff;
+	border: none;
+	padding: 10px 0;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #ddd;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: #333;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #241313;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #1e8ce4;
+}
+
+.breadcrumb {
+	padding: 7px 15px;
+	background-color: #f1f5f6;
+}
+@media screen and (max-device-width: 640px){
+	.nav > li {border-bottom: solid 1px #ccc;}
+}
+
+.label {
+	padding: .4em .6em;
+}
+
+.alert {
+  display: none;
+}
+
+.alert .show {
+  display: block;
+}

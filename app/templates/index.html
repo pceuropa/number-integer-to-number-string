@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block title %}Konwerter liczby słownie index{% endblock %}
+{% block content %}
+<div id="app">
+  
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+      {% include "form.html" %}
+  </div>
+</div>
+<hr/>
+
+<div class="row">
+   <div id="alert-success" class="row alert alert-success form-group col-md-8 col-md-offset-2">
+      [[ number_in_string ]] 
+   </div>
+   <div id="alert-danger" class="row hide alert alert-success form-group col-md-8 col-md-offset-2"> </div>
+</div>
+
+</div>
+{% endblock %}
