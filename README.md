@@ -14,7 +14,7 @@ Browser <- Js AJAX -> REST API (django) <->
 ```
 git clone https://github.com/pceuropa/number-integer-to-number-string.git
 cd number-integer-to-number-string
-pip3 install -r requrements.txt
+pip3 install -r requirements.txt
 ```
 
 
