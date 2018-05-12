@@ -1,6 +1,7 @@
 # number-integer-to-number-string
 Convert integer to number in polish words
 
+[Polish documentation](https://pceuropa.net/blog/pl/konwersja-liczby-na-slowa-python/)
 Browser <- Js AJAX -> REST API (django) <->
 [numbetostring.py](https://github.com/pceuropa/number-integer-to-number-string/blob/master/app/numbersinword.py) (python3)
 
