@@ -1,8 +1,8 @@
 # number-integer-to-number-string
 Convert integer to number in polish words
 
-
-###REST API (djang2) <= JS AJAX (main.js) => numbe_to_string.py (python3)
+Browser <- Js AJAX -> REST API (django) <->
+[numbetostring.py](https://github.com/pceuropa/number-integer-to-number-string/blob/master/app/numbersinword.py) (python3)
 
 2. Class numbersinword convert number to list. 
    On groups of number (by 3 number) iterate two functions: first set name of groups (ex. milionów, tysięcy) second set
